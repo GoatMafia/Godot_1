@@ -1,0 +1,320 @@
+[gd_scene format=3 uid="uid://c8mfpln07xpfh"]
+
+[ext_resource type="Script" uid="uid://dwrr66t1b4w8b" path="res://Scripts/main_control.gd" id="1_f3csd"]
+[ext_resource type="Texture2D" uid="uid://dtgf2k8xnskxh" path="res://Sprites/White_square.jpg" id="2_f3abk"]
+
+[node name="Main_control" type="Control" unique_id=1557193858]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f3csd")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=768959865]
+position = Vector2(576, 320)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=232752602]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(576, 324)
+scale = Vector2(5.84, 3.3200002)
+texture = ExtResource("2_f3abk")
+
+[node name="Button" type="Button" parent="." unique_id=948838511]
+self_modulate = Color(18.892157, 18.892157, 18.892157, 1)
+layout_mode = 0
+offset_left = 24.0
+offset_top = 64.0
+offset_right = 209.0
+offset_bottom = 128.0
+text = "Generate Booster Pack"
+
+[node name="Slot_1_label" type="Label" parent="." unique_id=1126090292]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 64.0
+offset_right = 379.0
+offset_bottom = 87.0
+text = "Slot 1"
+
+[node name="Label" type="Label" parent="Slot_1_label" unique_id=744582885]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label2" type="Label" parent="." unique_id=1740567066]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 128.0
+offset_right = 331.0
+offset_bottom = 151.0
+text = "Slot 2"
+
+[node name="Label" type="Label" parent="Slot_1_label2" unique_id=1912661953]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label3" type="Label" parent="." unique_id=1197127957]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 192.0
+offset_right = 331.0
+offset_bottom = 215.0
+text = "Slot 3"
+
+[node name="Label" type="Label" parent="Slot_1_label3" unique_id=785666998]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label4" type="Label" parent="." unique_id=1375395741]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 256.0
+offset_right = 331.0
+offset_bottom = 279.0
+text = "Slot 4"
+
+[node name="Label" type="Label" parent="Slot_1_label4" unique_id=1830751341]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label5" type="Label" parent="." unique_id=1660438877]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 320.0
+offset_right = 331.0
+offset_bottom = 343.0
+text = "Slot 5"
+
+[node name="Label" type="Label" parent="Slot_1_label5" unique_id=509835551]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label6" type="Label" parent="." unique_id=1180428817]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 384.0
+offset_right = 331.0
+offset_bottom = 407.0
+text = "Slot 6"
+
+[node name="Label" type="Label" parent="Slot_1_label6" unique_id=1359461072]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 327.0
+offset_bottom = 23.0
+text = "Common"
+
+[node name="Slot_1_label7" type="Label" parent="." unique_id=1399689546]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 448.0
+offset_right = 331.0
+offset_bottom = 471.0
+text = "Slot 7"
+
+[node name="Label" type="Label" parent="Slot_1_label7" unique_id=378299887]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 379.0
+offset_bottom = 23.0
+text = "Common or List"
+
+[node name="Slot_1_label8" type="Label" parent="." unique_id=1618202615]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 64.0
+offset_right = 811.0
+offset_bottom = 87.0
+text = "Slot 8"
+
+[node name="Label" type="Label" parent="Slot_1_label8" unique_id=146777569]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 347.0
+offset_bottom = 23.0
+text = "Uncommon"
+
+[node name="Slot_1_label9" type="Label" parent="." unique_id=552310427]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 811.0
+offset_bottom = 151.0
+text = "Slot 9"
+
+[node name="Label" type="Label" parent="Slot_1_label9" unique_id=24471940]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 347.0
+offset_bottom = 23.0
+text = "Uncommon"
+
+[node name="Slot_1_label10" type="Label" parent="." unique_id=1172770051]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 820.0
+offset_bottom = 215.0
+text = "Slot 10"
+
+[node name="Label" type="Label" parent="Slot_1_label10" unique_id=2029623738]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 347.0
+offset_bottom = 23.0
+text = "Uncommon"
+
+[node name="Slot_1_label11" type="Label" parent="." unique_id=565317591]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 820.0
+offset_bottom = 279.0
+text = "Slot 11"
+
+[node name="Label" type="Label" parent="Slot_1_label11" unique_id=1834718970]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 339.0
+offset_bottom = 23.0
+text = "Basic Land"
+
+[node name="Slot_1_label12" type="Label" parent="." unique_id=147001139]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 320.0
+offset_right = 820.0
+offset_bottom = 343.0
+text = "Slot 12"
+
+[node name="Label" type="Label" parent="Slot_1_label12" unique_id=1938858779]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 336.0
+offset_bottom = 23.0
+text = "Any Rarity"
+
+[node name="Slot_1_label13" type="Label" parent="." unique_id=457623838]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 384.0
+offset_right = 820.0
+offset_bottom = 407.0
+text = "Slot 13"
+
+[node name="Label" type="Label" parent="Slot_1_label13" unique_id=301169778]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 367.0
+offset_bottom = 23.0
+text = "Any Rarity Foil"
+
+[node name="Slot_1_label14" type="Label" parent="." unique_id=1226649003]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 448.0
+offset_right = 820.0
+offset_bottom = 471.0
+text = "Slot 14"
+
+[node name="Label" type="Label" parent="Slot_1_label14" unique_id=47650982]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 369.0
+offset_bottom = 23.0
+text = "Rare or Mythic"
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=501306385]
+self_modulate = Color(0, 0.22352941, 0, 1)
+position = Vector2(704, 320)
+scale = Vector2(0.32000005, 3.3600001)
+texture = ExtResource("2_f3abk")
+
+[node name="Button2" type="Button" parent="." unique_id=928041414]
+self_modulate = Color(18.892157, 18.892157, 18.892157, 1)
+layout_mode = 0
+offset_left = 24.0
+offset_top = 512.0
+offset_right = 184.0
+offset_bottom = 576.0
+text = "Reset Money Spent"
+
+[node name="Money_tracker" type="Label" parent="." unique_id=244472705]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 192.0
+offset_right = 226.0
+offset_bottom = 215.0
+text = "Money Spent on Packs:"
+
+[node name="Label" type="Label" parent="Money_tracker" unique_id=1255357941]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 106.0
+offset_bottom = 63.0
+text = "$0"
+
+[node name="Pack_tracker" type="Label" parent="." unique_id=1748246317]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 296.0
+offset_right = 226.0
+offset_bottom = 319.0
+text = "Packs Opened:"
+
+[node name="Label" type="Label" parent="Pack_tracker" unique_id=1309139253]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 106.0
+offset_bottom = 63.0
+text = "0"
+
+[node name="Pop_1" type="Control" parent="." unique_id=1070507867]
+anchors_preset = 0
+offset_left = 1208.0
+offset_top = 104.0
+offset_right = 1248.0
+offset_bottom = 144.0
+
+[node name="Sprite2D2" type="Sprite2D" parent="Pop_1" unique_id=1094903485]
+self_modulate = Color(0, 0.7921569, 1, 1)
+position = Vector2(-504, 184)
+scale = Vector2(4.4800005, 2.2399998)
+texture = ExtResource("2_f3abk")
+
+[node name="TextEdit" type="TextEdit" parent="Pop_1" unique_id=1734081171]
+layout_mode = 0
+offset_left = -936.0
+offset_top = -24.0
+offset_right = -72.0
+offset_bottom = 392.0
+text = "Card list goes here"
+
+[node name="Pop_button" type="Button" parent="." unique_id=1754600297]
+self_modulate = Color(18.892157, 18.892157, 18.892157, 1)
+layout_mode = 0
+offset_left = 24.0
+offset_top = 432.0
+offset_right = 184.0
+offset_bottom = 496.0
+text = "Toggle Text"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Pop_button" to="." method="_on_pop_button_pressed"]
